@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 const script_url = "https://www.fnac.es/static-proxy/kameleoon/script.js";
-
+console.log("dl migration: ");
 const getScript = () => {
   return fetch(script_url)
     .then(function (res) {
